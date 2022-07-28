@@ -7,7 +7,7 @@ body {font-family: Montserrat, Helvetica Neue, sans-serif; margin: 0 auto; line-
     background: -ms-linear-gradient(-45deg,  #ffded1 0%,#ffded1 50%,#ffc5af 50%,#ffc5af 100%); /* IE10+ */
     background: linear-gradient(135deg,  #ffded1 0%,#ffded1 50%,#ffc5af 50%,#ffc5af 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffded1', endColorstr='#ffc5af',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-    
+    background-image: url("https://github.com/jesmjones/jesmjones.github.io/blob/main/neuron.png"); 
     }
     
     body, html {height: 100%;}
