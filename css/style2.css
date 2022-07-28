@@ -1,5 +1,5 @@
 body {font-family: Montserrat, Helvetica Neue, sans-serif; margin: 0 auto; line-height: 2em; padding: 12px; box-sizing: border-box; color: #333; overflow: auto;
-    background-image: url('banner2.png'); 
+    background-image: url('/Users/sunshine/Documents/GitHub/jesmjones.github.io/banner2.png'); 
     background-color: #f5d7d7; /* Used if the image is unavailable */
     height: 1500px; /* You must set a specified height */
     background-position: center; /* Center the image */
