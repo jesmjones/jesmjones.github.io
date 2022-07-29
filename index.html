@@ -1,20 +1,99 @@
 <!doctype html>
 <html>
   <head>
+  <!-- tab params -->
     <meta charset="utf-8">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Montserrat" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="css/style2.css">
     <link rel="icon" href="favicon.png" type="image/x-icon">
     <title>jessica jones</title>
+
+<!-- slideshow container -->
+    <style>
+      .slider {
+        width: 500px;
+        height: 300px;
+        background-color: black;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        text-align: center;
+        overflow: hidden;
+      }
+      .image-container {
+        width: 1500px;
+        background-color: pink;
+        height: 300px;
+        clear: both;
+        position: relative;
+        -webkit-transition: left 2s;
+        -moz-transition: left 2s;
+        -o-transition: left 2s;
+        transition: left 2s;
+      }
+      .slide {
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+      }
+      #slide-1:target ~ .image-container {
+        left: 0px;
+      }
+      #slide-2:target ~ .image-container {
+        left: -500px;
+      }
+      #slide-3:target ~ .image-container {
+        left: -1000px;
+      }
+      #slide-4:target ~ .image-container {
+        left: -1500px;
+      }
+      .buttons {
+        position: relative;
+        top: -20px;
+      }
+      .buttons a {
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        border-radius: 50px;
+        background-color: magenta;
+      }
+    </style>
   </head>
+  
+  <!-- content -->
   <body>
     <div class="wrapper">
     <div class="container">
       <header>
         <h1 class="name">jessica jones</h1>
       </header>
+      
       <article>
-        <img src="self.jpeg"/>
+        <!-- images for slide show -->
+        <div class="slider">
+          <span id="slide-1"></span>
+          <span id="slide-2"></span>
+          <span id="slide-3"></span>
+          <span id="slide-4"></span>
+          <div class="image-container">
+            <img src="imgs/banner_color_resized.png" class="slide" width="500" height="300" />
+            <img src="imgs/ppk_resized.jpg" class="slide" width="500" height="300" />
+            <img src="imgs/barrel_dendrites_resized.png" class="slide" width="500" height="300" />
+            <img src="imgs/tsne_resized.png" class="slide" width="500" height="300" />
+          </div>
+          <div class="buttons">
+            <a href="#slide-1"></a>
+            <a href="#slide-2"></a>
+            <a href="#slide-3"></a>
+            <a href="#slide-4"></a>
+          </div>
+        </div>
+
+
+      <!-- text -->
         <p>I'm a behavioral neuroscientist. </p> 
         <p> <b>Currently, I'm a Ph.D. Candidate in <a href="https://faculty.washington.edu/tuthill/" target="_blank"> Dr. John Tuthill's lab </a> 
             at the University of Washington, and plan to graduate Fall 2025.</b></p>  
@@ -35,6 +114,7 @@
         <p><small><a href="CV_2022.pdf" target="_blank"> ...see the rest of my CV here!</a></small></p>
       </article>
 
+<!-- hyperlinks -->
     <footer>
       <ul class="meta inline-list">
         <li><a href="mailto:to.jonesjes@uw.edu">email</a></li>
