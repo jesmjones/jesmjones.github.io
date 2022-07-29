@@ -10,57 +10,82 @@
 
 <!-- slideshow container -->
     <style>
-      .slider {
-        width: 500px;
-        height: 300px;
-        background-color: black;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 0px;
+      #hcg-slider-1 .hcg-slide-container {
+        width: auto;
+        height: auto;
+      }
+      .hcg-slider {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .hcg-slide-container {
+        max-width: 100%;
+        display: inline-block;
+        position: relative;
+      }
+      .hcg-slides {
+        display: none;
         text-align: center;
         overflow: hidden;
       }
-      .image-container {
-        width: 1500px;
-        background-color: pink;
-        height: 300px;
-        clear: both;
-        position: relative;
-        -webkit-transition: left 2s;
-        -moz-transition: left 2s;
-        -o-transition: left 2s;
-        transition: left 2s;
-      }
-      .slide {
-        float: left;
-        margin: 0px;
-        padding: 0px;
-        position: relative;
-      }
-      #slide-1:target ~ .image-container {
-        left: 0px;
-      }
-      #slide-2:target ~ .image-container {
-        left: -500px;
-      }
-      #slide-3:target ~ .image-container {
-        left: -1000px;
-      }
-      #slide-4:target ~ .image-container {
-        left: -1500px;
-      }
-      .buttons {
-        position: relative;
-        top: -20px;
-      }
-      .buttons a {
+      .hcg-slides img {
+        max-width: 100%;
+        max-height: 100%;
         display: inline-block;
-        height: 15px;
-        width: 15px;
-        border-radius: 50px;
-        background-color: magenta;
+        border-radius: 5px;
+        border: solid 1px #a0a0a0;
+        vertical-align: middle;
       }
-    </style>
+      .hcg-slide-text {
+        color: #ffffff;
+        font-size: 14px;
+        padding: 3px 5px;
+        position: absolute;
+        bottom: 0;
+        border-radius: 5px;
+        left: 50%;
+        text-align: center;
+        text-shadow: 0 0 2px #000;
+        background-color: rgba(255,255,255,0.30);
+        display: inline-block;
+        transform: translate(-50%, -5px);
+      }
+      .hcg-slide-dot-control {
+        margin-top: 10px;
+        text-align: center;
+      }
+      .hcg-slide-dot {
+        cursor: pointer;
+        height: 13px;
+        width: 13px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+      }
+      .hcg-slide-dot.dot-active {
+        background-color: #717171;
+      }
+      /************CSS Animation***********/
+      
+      .animated { 
+        animation-name: fadeIn; 
+        animation-duration: 1s;
+      }
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      .fadeIn {
+        animation-name: fadeIn;
+      }
+      
+      
+      </style>
   </head>
 
   <!-- content -->
@@ -71,25 +96,19 @@
         <h1 class="name">jessica jones</h1>
       </header>
 
-      <!-- images for slide show -->
-      <div class="slider">
-        <span id="slide-1"></span>
-        <span id="slide-2"></span>
-        <span id="slide-3"></span>
-        <span id="slide-4"></span>
-        <div class="image-container">
-          <img src="imgs/banner_color_resized.png" class="slide" width="572.52" height="250.06" />
-          <img src="imgs/ppk_resized.jpg" class="slide" width="524.58" height="250.12" />
-          <img src="imgs/barrel_dendrites_resized.png" class="slide" width="574.68" height="249.94" />
-          <img src="imgs/tsne_resized.png" class="slide" width="566.56" height="249.94" />
-        </div>
-        <div class="buttons">
-          <a href="#slide-1"></a>
-          <a href="#slide-2"></a>
-          <a href="#slide-3"></a>
-          <a href="#slide-4"></a>
+    <div id="hcg-slider-1" class="hcg-slider">
+      <div class="hcg-slide-container">
+        <div class="hcg-slider-body">
+          <a class="hcg-slides animated" style="display:block">
+            <span class="hcg-slide-number">1/5</span>
+            <img src="https://html-generator.com/uploads/images/2022/07/29/78933LFIUEI6J0H.png" alt="Jessica Jones">
+            <span class="hcg-slide-text">Jessica Jones</span>
+          </a>
         </div>
       </div>
+      <div class="hcg-slide-dot-control"></div>
+    </div>
+        
       <article>
       <!-- text -->
       <p>I'm a behavioral neuroscientist. </p> 
@@ -113,7 +132,72 @@
       <p><small><a href="CV_2022.pdf" target="_blank"> ...see the rest of my CV here!</a></small></p>
       </article>
 
-<!-- hyperlinks -->
+
+    <script>
+      (function(){
+      //If you want to include more images, add the link name and URL of the image in the array list below.
+        let images_list = [
+          {"url":"https://html-generator.com/uploads/images/2022/07/29/78933LFIUEI6J0H.png","name":"Jessica Jones","link":""},
+          {"url":"https://html-generator.com/uploads/images/2022/07/29/00432PXWNHR73OH.jpg","name":"Neuron Projections into Brain","link":""},
+          {"url":"https://html-generator.com/uploads/images/2022/07/29/140698DUMFZ5XEG.png","name":"EM Reconstructed Axons","link":""},
+          {"url":"https://html-generator.com/uploads/images/2022/07/29/29963R6D0O7HSP9.png","name":"Behavioral Classification","link":""}
+        ];
+      
+        let slider_id = document.querySelector("#hcg-slider-1");
+      
+        // append all images
+        let dots_div = "";
+        let images_div = "";
+        for (let i = 0; i < images_list.length; i++) {
+          // if no link without href="" tag
+          let href = (images_list[i].link == "" ? "":' href="'+images_list[i].link+'"');
+          images_div += '<a'+href+' class="hcg-slides animated"'+(i === 0 ? ' style="display:block"':'')+'>'+
+                  '<img src="'+images_list[i].url+'" alt="'+images_list[i].name+'">'+
+                  '<span class="hcg-slide-text">'+images_list[i].name+'</span>'+
+                '</a>';
+          dots_div += '<span class="hcg-slide-dot'+(i === 0 ? ' dot-active':'')+'" data-id="'+i+'"></span>';
+        }
+        slider_id.querySelector(".hcg-slider-body").innerHTML = images_div;
+        slider_id.querySelector(".hcg-slide-dot-control").innerHTML = dots_div;
+      
+        let slide_index = 0;
+      
+        let images = slider_id.querySelectorAll(".hcg-slides");
+        let dots = slider_id.querySelectorAll(".hcg-slide-dot");
+        function showSlides() {
+          if (slide_index > images.length-1) {
+            slide_index = 0;
+          }
+          if (slide_index < 0) {
+            slide_index = images.length-1;
+          }
+          for (let i = 0; i < images.length; i++) {
+            images[i].style.display = "none";
+            dots[i].classList.remove("dot-active");
+            if (i == slide_index) {
+              images[i].style.display = "block";
+              dots[i].classList.add("dot-active");
+            }
+          }
+        }
+      
+        function dot_click(event) {
+          slide_index = event.target.dataset.id;
+          showSlides();
+        }
+      
+        for (let i = 0; i < dots.length; i++) {
+          dots[i].addEventListener("click", dot_click, false);
+        }
+        setInterval(function(){
+          slide_index++;
+          showSlides();
+        }, 4000);
+      
+      })();
+    </script>
+    
+    <!-- hyperlinks -->
     <footer>
       <ul class="meta inline-list">
         <li><a href="mailto:to.jonesjes@uw.edu">email</a></li>
