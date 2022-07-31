@@ -19,7 +19,6 @@ body {font-family: Montserrat, Helvetica Neue, sans-serif; margin: 0 auto; line-
     .container {margin: 0 auto; width: 700px; padding: 120px 12px 50px; overflow: auto;}
     article {padding: 60px;}
 
-
     #hcg-slider-1 .hcg-slide-container {
       width: auto;
       height: auto;
@@ -93,7 +92,7 @@ body {font-family: Montserrat, Helvetica Neue, sans-serif; margin: 0 auto; line-
     .fadeIn {
       animation-name: fadeIn;
     }
-
+  
     .centerImage {text-align:center; display:block;}
     /* TODO find better cross-platform characters */
     /* article::before {
