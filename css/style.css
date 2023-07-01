@@ -13,6 +13,23 @@ p {font-weight: 200; font-size: 20px;}
 
 .container {margin: 0 auto; width: 600px; height: 400px; padding: 80px 12px; overflow: auto;}
 
+.blog-posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.post {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.post h2 {
+  margin-top: 0;
+}
+
+
 .meta {text-transform: uppercase; font-family: Courier New, Quicksand, "Helvetica Neue", "Arial", sans-serif; font-size: 11px; letter-spacing: .15em;}
 .meta a:hover {border-bottom: 1px solid #CCFF26; color: #333;}
 
