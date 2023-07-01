@@ -1,111 +1,32 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Neuroglancer Viewer</title>
-  <script src="https://neuroglancer-demo.appspot.com/static/neuroglancer.min.js"></script>
-</head>
-<body>
-  <script>
-    const jsonState = {
-      "layers": [
-        {
-          "source": "precomputed://gs://zetta_lee_fly_vnc_001_precomputed/fanc_v4_em",
-          "type": "image",
-          "blend": "default",
-          "shaderControls": {},
-          "name": "fanc_v4"
-        },
-        {
-          "source": "graphene://https://cave.fanc-fly.com/segmentation/table/mar2021_prod",
-          "type": "segmentation_with_graph",
-          "selectedAlpha": 0.3,
-          "segments": [
-            "648518346501197197"
-          ],
-          "hiddenSegments": [
-            "648518346466944238",
-            "648518346472220875",
-            "648518346479459776",
-            "648518346485938302",
-            "648518346485976210",
-            "648518346486573025",
-            "648518346486642145",
-            "648518346488911338",
-            "648518346489681356",
-            "648518346490886435",
-            "648518346491147553",
-            "648518346491520574",
-            "648518346493754104",
-            "648518346495415631",
-            "648518346498181908",
-            "648518346498475248",
-            "648518346498476016",
-            "648518346503717537"
-          ],
-          "skeletonRendering": {
-            "mode2d": "lines_and_points",
-            "mode3d": "lines"
-          },
-          "graphOperationMarker": [
-            {
-              "annotations": [],
-              "tags": []
-            },
-            {
-              "annotations": [],
-              "tags": []
-            }
-          ],
-          "pathFinder": {
-            "color": "#ffff00",
-            "pathObject": {
-              "annotationPath": {
-                "annotations": [],
-                "tags": []
-              },
-              "hasPath": false
-            }
-          },
-          "name": "seg"
-        }
-      ],
-      "navigation": {
-        "pose": {
-          "position": {
-            "voxelSize": [
-              4.300000190734863,
-              4.300000190734863,
-              45
-            ],
-            "voxelCoordinates": [
-              38946.07421875,
-              165172.78125,
-              1291.0028076171875
-            ]
-          }
-        },
-        "zoomFactor": 2
-      },
-      "perspectiveOrientation": [
-        0.022769931703805923,
-        -0.015179268084466457,
-        -0.0047153509221971035,
-        0.9996143579483032
-      ],
-      "perspectiveZoom": 7400.003526319828,
-      "showSlices": false,
-      "jsonStateServer": "https://global.daf-apis.com/nglstate/api/v1/post",
-      "selectedLayer": {
-        "layer": "seg",
-        "visible": true
-      },
-      "layout": "xy-3d"
-    };
+  <head>
+    <title>My Blog</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>  
+    <div class="container">
+      <header>
+        <h1>Blog</h1>
+      </header>
 
-    const viewer = new neuroglancer.Viewer(document.getElementById('neuroglancer-container'));
-    viewer.state.restoreState(jsonState);
-  </script>
+      <section class="blog-posts">
+        <div class="post">
+          <h2><a href="posts/_07012023.html">Blog Post 1</a></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
 
-  <div id="neuroglancer-container"></div>
-</body>
+        <div class="post">
+          <h2><a href="post2.html">Blog Post 2</a></h2>
+          <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+
+        <!-- Add more blog post blocks as needed -->
+      </section>
+
+      <footer>
+        <p>© 2023 My Blog. All rights reserved.</p>
+      </footer>
+    </div>
+  </body>
 </html>
