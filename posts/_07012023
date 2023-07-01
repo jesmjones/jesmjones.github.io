@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>connectomics</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Explain it to me like I’m five: Connectomics, what's the hype, and why do we care so much?
+</h1>
+    </header>
+
+    <section>
+      <h2>Latest Posts</h2>
+      <!-- Add your blog post links or summaries here -->
+    </section>
+
+    <footer>
+      <p>© 2023 My Blog. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
+Commit and push your changes: Save the index.html file and commit your changes using the following commands:
