@@ -14,7 +14,7 @@ body {
 
 .wrapper {box-sizing: border-box; background: #fff; box-shadow: 0 0 5px #888; box-shadow: 0 0 5px #888; height: 100%; overflow: auto; }
 
-article {padding: 30px;}
+article {padding: 90px;}
 
 a {color: #777; text-decoration: none; border-bottom: 1px solid #CCFF26;}
 a:hover {border-bottom: 1px solid #CCFF26; color: #222}
