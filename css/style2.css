@@ -1,5 +1,5 @@
 body {font-family: Montserrat, Helvetica Neue, sans-serif; margin: 0 auto; line-height: 2em; padding: 12px; box-sizing: border-box; color: white; overflow: auto; 
-    background-color: white; /* Used if the image is unavailable */
+    background-color: #cee5cc; /* Used if the image is unavailable */
     height: 1500px; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -10,7 +10,7 @@ body {font-family: Montserrat, Helvetica Neue, sans-serif; margin: 0 auto; line-
     .wrapper {box-sizing: border-box; height: 100%; overflow: auto; }
     
     
-    a {text-decoration: none; color: #e1ebf9; border-bottom: 3px solid #e3eaf4;}
+    a {text-decoration: none; color: #133046; border-bottom: 3px solid #e3eaf4;}
     a:hover {color: magenta}
 
     h1 {
