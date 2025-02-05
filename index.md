@@ -13,11 +13,11 @@ Now, in my graduate career, I hope to develop a strategy to delineate neuronal p
 
 
 ## Notable graduate awards:
-Howard Hughes Medical Institute (HHMI) Gilliam Fellowship (2022)
-NSFGRFP Honorable Mention, Life Sciences - Neurosciences (2022)
-NIH T32 Predoctoral Training Program in the Neurosciences (2020-21)
+- Howard Hughes Medical Institute (HHMI) Gilliam Fellowship (2022)
+- NSFGRFP Honorable Mention, Life Sciences - Neurosciences (2022)
+- NIH T32 Predoctoral Training Program in the Neurosciences (2020-21)
         
-- [CV][CV Jessica Jones 2025.pdf](https://github.com/user-attachments/files/18680510/CV.Jessica.Jones.2025.pdf)
+[more in my CV (2025)](https://github.com/user-attachments/files/18680510/CV.Jessica.Jones.2025.pdf)
 
 
 
