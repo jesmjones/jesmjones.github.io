@@ -17,8 +17,8 @@ Howard Hughes Medical Institute (HHMI) Gilliam Fellowship (2022)
 NSFGRFP Honorable Mention, Life Sciences - Neurosciences (2022)
 NIH T32 Predoctoral Training Program in the Neurosciences (2020-21)
         
-- [CV](https://github.com/jitinnair1/autocv) - a LaTeX template that builds and deploys the CV using GitHub Actions, so you will always have a ready link for your latest CV
-- [Tail](https://github.com/jitinnair1/tail) - a minimal, quick-setup template for a blog
+- [CV][CV Jessica Jones 2025.pdf](https://github.com/user-attachments/files/18680510/CV.Jessica.Jones.2025.pdf)
+
 
 
 
