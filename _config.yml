@@ -13,15 +13,15 @@ permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
 
 # Social media links in footer
-linkedin: "https://www.linkedin.com/in/jessica--jones/" 
+linkedin: "jessica--jones/" 
 #stackoverflow: "#"
-github: "http://www.github.com/jesmjones"
+github: "jesmjones"
 #researchgate: "#"
-orcid: "https://orcid.org/0000-0003-3638-255X"
+orcid: "0000-0003-3638-255X"
 #quora: "#"
 #instagram: "#"
 #facebook: "#"
-bluesky: "https://twitter.com/jones__jess"
+bluesky: "jones__jess"
 
 # Markdown
 highlighter: rouge
