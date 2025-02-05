@@ -3,8 +3,8 @@
 title: Jessica Jones
 description: behavioral neuroscientist | ph.d candidate | uw seattle
 
-baseurl: /jesmjones.github.io #name of GitHub repository
-url: "" #custom url to be used instead of GitHub repository
+baseurl: "/" #name of GitHub repository
+url: "https://jesmjones.github.io" #custom url to be used instead of GitHub repository
 email: jonesjes@uw.edu
 
 # Pagination
