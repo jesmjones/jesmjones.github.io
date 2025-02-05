@@ -1,58 +1,12 @@
 ---
 layout: post
-title: Short Project
-description: description of the short project which is long enough
+title: PAWS
+description: Pain Assessment at Withdrawal Speeds
 ---
-Example modified from [here](http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html){:target="_blank"}.
+The new API for PAWS is [here](https://osimon81.github.io/PAWS/index.html){:target="_blank"}. Site developed by Simon Ogundare, Justin Burdge, Anissa Jhumka, Colin Twomey, Ishmail Abdus-Saboor.
 
-H1 Header
-============
+PAWS is a processing pipeline using pose-estimation software to score paw withdrawal behavior. Based on Jones et al. (2020) A machine-vision approach for automated pain measurement at millisecond timescales.
 
-Paragraphs are separated by a blank line.
-
-2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
-look like:
-
-  * this one
-  * that one
-  * the other one
-
-Note that the actual text
-content starts at 4-columns in.
-
-> Block quotes are
-> written like so.
->
-> They can span multiple paragraphs,
-> if you like.
-
-
-H2 Header
-------------
-
-Here's a numbered list:
-
- 1. first item
- 2. second item
- 3. third item
-
-Note again how the actual text starts at 4 columns in (4 characters
-from the left side). Here's a code sample:
-
-    # Let me re-iterate ...
-    for i in 1 .. 10 { do-something(i) }
-
-As you probably guessed, indented 4 spaces. By the way, instead of
-indenting the block, you can use delimited blocks, if you like:
-
-~~~
-define foobar() {
-    print "Welcome to flavor country!";
-}
-~~~
-
-(which makes copying & pasting easier). You can optionally mark the
-delimited block for Pandoc to syntax highlight it by specifying the languagae after the start of a block (e.g. `~~~python`) which would look like :
 
 ~~~python
 import time
