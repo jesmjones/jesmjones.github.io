@@ -13,4 +13,3 @@ This is a hot question today in neuroscience, and I seek to answer this by ident
 
 I will reconstruct the anatomy and connectivity of nociceptive circuits in the fly’s central nervous system. I will then combine circuit reconstruction, optogenetic manipulations, and automated measurements of fly behavior to investigate how nociceptive signals are integrated in the fly brain to mediate responses to nociception.
 
-<img width="1606" alt="tsne_resized" src="https://github.com/user-attachments/assets/5ad2735c-99ea-4725-82d9-85ce4797670b" />
