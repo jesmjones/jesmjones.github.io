@@ -2,6 +2,9 @@
 layout: post
 title:  Connectomics– what's the hype, and why do we care so much?
 ---
+
+by Jessica Jones
+
 Explain it to me like I’m five: What the hell is connectomics?
 ====
 
