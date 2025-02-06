@@ -7,6 +7,7 @@ by Jessica Jones
 
 Explain it to me like I’m five: What the hell is connectomics?
 ====
+![ffbo_screenshot](https://github.com/user-attachments/assets/ec411a53-2383-4bc3-9f09-35db8d2cd046)
 
 
 Imagine that you want to build a house. You need to know how all the different parts of the house are connected together in order to build it correctly. Connectomics is like the blueprint for the house. It tells you how all the different parts of the brain are connected together, and how these connections work together to control our behavior. It's like a map of all the roads in a city, but instead of roads, it's neurons and synapses.
@@ -37,6 +38,9 @@ For example, if scientists can understand how the fruit fly brain controls walki
 
 Cool great… so how does the fly fit into connectomics?
 ====
+
+![](https://s4.ezgif.com/tmp/ezgif-4b1b793d4dbcd.gif)
+
 Drosophila connectomics offers us what we can’t achieve yet in humans: a window into the pink goop. Our lab and others around the world are using connectomics to study motor behaviors in flies, and they’ve made quite the stride in mapping the neural connections in the adult fruit fly nervous system.
 
 We now have three connectomes for the fly–a female and male nerve cord, similar to our spinal cord, connectome, and a whole fly brain one–all of which contain a high-resolution map of the fly’s wiring system. We recently found out several new neural circuits that are involved in important behaviors, such as locomotion, flight, grooming, olfaction, vision, and navigation.
