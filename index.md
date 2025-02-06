@@ -11,6 +11,8 @@ Currently, I'm a Ph.D. Candidate in [Dr. John Tuthill's lab](https://faculty.was
 
 Now, in my graduate career, I hope to develop a strategy to delineate neuronal pathways downstream of Drosophila nociceptors that govern aspects of aversive escape behaviors via optogenetic activation experiments, precise genetic silencing techniques, single-cell RNA sequencing analyses, and [comprehensive neural EM circuit reconstruction](https://www.nature.com/articles/s41586-024-07389-x){:target="_blank"}
 
+![Drosophila 3rd instar](https://github.com/user-attachments/assets/b765abb4-8bbb-42ad-9779-5b72b359e836)
+*(staining of ppk-Gal4, Taken by: Bryan Lim (Feng Wei Yu's Lab)*
 
 ## Notable graduate awards:
 - Howard Hughes Medical Institute (HHMI) Gilliam Fellowship (2022)
