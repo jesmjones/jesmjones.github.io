@@ -5,23 +5,21 @@ title:  Connectomics– what's the hype, and why do we care so much?
 
 by Jessica Jones
 
-Explain it to me like I’m five: What the hell is connectomics?
-====
+
 ![ffbo_screenshot](https://github.com/user-attachments/assets/ec411a53-2383-4bc3-9f09-35db8d2cd046)
 
-
+What the hell is connectomics?
+====
 Imagine that you want to build a house. You need to know how all the different parts of the house are connected together in order to build it correctly. Connectomics is like the blueprint for the house. It tells you how all the different parts of the brain are connected together, and how these connections work together to control our behavior. It's like a map of all the roads in a city, but instead of roads, it's neurons and synapses.
 
 Neurons are the cells that make up the brain, and synapses are the connections between neurons. Connectomics helps us to understand how these connections work together to control our behavior. For example, if you want to learn how to ride a bike, you need to learn how to coordinate your muscles and your senses. Connectomics can help us to understand how the brain learns to do this by mapping the connections between the different parts of the brain that are involved in riding a bike.
 
 Connectomics is still a new field, but it has the potential to revolutionize our understanding of the brain and behavior. As we learn more about how the brain works, we can develop new treatments for neurological disorders and create new technologies that can help us to improve our lives.
 
-Y’all work on the fly…why?
+Work on the fly…why?
 ====
 My current wheelhouse is the fruit fly, also known as Drosophila melanogaster. Yes–I study the bug that keeps showing up after you’ve purchased bananas. Ever since all these connectomic papers came out, the most common questions I’ve been asked so far when explaining my and my lab’s research are,
 
-“Cool… but seriously why the fly? What's so important about a legit bug? You sent a bug WHERE to be imaged like THAT? What about human health?”
-====
 These questions aren’t naive at all to ask–at face value there's no obvious reason to study the fly to this depth for the betterment of society. To map every neuron and synapse and its influence on other neurons and synapses in a bug is giving “waste my time” energy to the majority of the US populus at least. For a while I sorta agreed with this, but as I’ve been progressing through this hellscape known as a Ph.D. my stance has shifted.
 
 You’d be surprised to know that A. we are human, and B. as a society we care a lot about…well…us mostly. As scientists we do a lot to figure out what the hells going on in our bodies and our tax dollars pay for it. We focus on rodent models and other vertebrate species to facilitate the discovery of new genes and new concepts about the brain to understand how we do what we do, and what's happening when things go awry. So how does the fruit fly fit in this? How would a bug help in this discovery and advancement of us?
@@ -46,7 +44,7 @@ We now have three connectomes for the fly–a female and male nerve cord, simila
 
 The fruit fly brain itself is much more modular than previously thought; each connectome is organized into several modules, or blocks, each of which is responsible for a specific function for the fly. For example, one module is responsible for locomotion, controlling the relationship between two or more muscle groups to coordinate walking in the fly, while another module is responsible for flight production, how the beats of a fly wing are controlled to execute flying and potential escape. The connectome also reveals a number of long-range connections between different modules. These connections are important for coordinating the activity of different parts of the nervous system. And spoiler alert: we have a very similar organization in our nervous system, too.
 
-Holy shit…so what's next?
+Oh!…So what's next?
 ====
 The future of connectomics is bright. As the field continues to advance, we will learn more about how the brain works and how to treat neurological disorders. We will also be able to create new brain-computer interfaces that allow people with disabilities to control devices with their thoughts.
 
