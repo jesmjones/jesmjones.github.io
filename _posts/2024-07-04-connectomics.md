@@ -38,10 +38,9 @@ For example, if scientists can understand how the fruit fly brain controls walki
 
 Cool great… so how does the fly fit into connectomics?
 ====
+![fanc_EM_small](https://github.com/user-attachments/assets/3d6e6689-c01d-4f07-8c0b-107759033e83)
 
-![](https://s4.ezgif.com/tmp/ezgif-4b1b793d4dbcd.gif)
-
-Drosophila connectomics offers us what we can’t achieve yet in humans: a window into the pink goop. Our lab and others around the world are using connectomics to study motor behaviors in flies, and they’ve made quite the stride in mapping the neural connections in the adult fruit fly nervous system.
+Drosophila connectomics offers us what we can’t achieve yet in humans: a window into the pink goop and spaghetti. Our lab and others around the world are using connectomics, based on serially sectioned EM volumes seen above, to study motor behaviors in flies, and they’ve made quite the stride in mapping the neural connections in the adult fruit fly nervous system.
 
 We now have three connectomes for the fly–a female and male nerve cord, similar to our spinal cord, connectome, and a whole fly brain one–all of which contain a high-resolution map of the fly’s wiring system. We recently found out several new neural circuits that are involved in important behaviors, such as locomotion, flight, grooming, olfaction, vision, and navigation.
 
