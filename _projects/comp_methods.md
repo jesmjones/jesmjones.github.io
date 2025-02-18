@@ -5,7 +5,10 @@ description: Computational Methods for Data Analysis
 ---
 
 ![0_l0zoTQqaOFAFw_6H](https://github.com/user-attachments/assets/2002adf2-fe27-4021-a0b8-bddc8bb2b786)
+
 (GIF By Nagesh Singh Chauhan)
+
+repo [here](https://github.com/jesmjones/amath582)
 
 ### Course Description
 Exploratory and objective data analysis methods applied to the physical, engineering, and biological sciences. Brief review of statistical methods and their computational implementation for studying time series analysis, spectral analysis, filtering methods, principal component analysis, orthogonal mode decomposition, and image processing and compression
