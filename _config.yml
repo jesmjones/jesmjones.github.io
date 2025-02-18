@@ -1,7 +1,7 @@
 ### your site title here
 
 title: Jessica Jones
-description: behavioral neuroscientist | uw ph.d candidate | hhmi gilliam fellow | 
+description: behavioral neuroscientist | hhmi gilliam fellow | uw ph.d candidate
 
 baseurl: "/" #name of GitHub repository
 url: "https://jesmjones.github.io" #custom url to be used instead of GitHub repository
