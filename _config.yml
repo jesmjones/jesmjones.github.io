@@ -51,7 +51,7 @@ collections:
       - ABM.md
       - MMpy.md
       - PAWS.md
-      #- project6.md
+      - comp_methods.md
       - redirect.md
 
 sass:
