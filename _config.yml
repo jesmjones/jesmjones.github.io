@@ -52,6 +52,7 @@ collections:
       - MMpy.md
       - PAWS.md
       - comp_methods.md
+      - taste_classifier.md
       - redirect.md
 
 sass:
