@@ -53,7 +53,7 @@ collections:
       - PAWS.md
       - comp_methods.md
       - taste_classifier.md
-      - redirect.md
+      #- redirect.md
 
 sass:
   sass_dir: /assets/css/_sass
