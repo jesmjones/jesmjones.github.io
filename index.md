@@ -7,7 +7,8 @@ profile:
 published: true
 ---
 
-[CV](https://github.com/user-attachments/files/18680510/CV.Jessica.Jones.2025.pdf), [Resume](https://github.com/user-attachments/files/18973487/Jessica_Jones_2025.pdf)
+updated [CV](https://github.com/user-attachments/files/18680510/CV.Jessica.Jones.2025.pdf), [Resume](https://github.com/user-attachments/files/18973585/Jessica_Jones_2025.pdf)
+
 
 I am currently a Ph.D. Candidate in [Dr. John Tuthill's lab](https://faculty.washington.edu/tuthill/){:target="_blank"} at the University of Washington, where I anticipate completing my degree in Fall 2025. I graduated from the University of California, Santa Cruz, in 2018 (Go Slugs!). After completing my undergraduate studies with [Dr. James Ackman](https://ackmanlab.com/about.html/){:target="_blank"}, I worked as a Research Specialist in [Dr. Ishmail Abdus-Saboor's laboratory](https://www.abdus-saboorlab.com/){:target="_blank"} at the University of Pennsylvania for two years. During this time, I [developed new, ](https://elifesciences.org/articles/57258){:target="_blank"}[more objective assays](https://www.sciencedirect.com/science/article/pii/S2211124719309076){:target="_blank"}, and [computational tools](https://www.science.org/doi/10.1126/sciadv.abk2425){:target="_blank"} to assess acute and chronic pain states in rodent models.
 
