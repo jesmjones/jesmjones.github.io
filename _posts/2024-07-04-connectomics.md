@@ -18,17 +18,13 @@ Connectomics is still a new field, but it has the potential to revolutionize our
 
 Work on the fly…why?
 ====
-My current wheelhouse is the fruit fly, also known as Drosophila melanogaster. Yes–I study the bug that keeps showing up after you’ve purchased bananas. Ever since all these connectomic papers came out, the most common questions I’ve been asked so far when explaining my and my lab’s research are,
-
-These questions aren’t naive at all to ask–at face value there's no obvious reason to study the fly to this depth for the betterment of society. To map every neuron and synapse and its influence on other neurons and synapses in a bug is giving “waste my time” energy to the majority of the US populus at least. For a while I sorta agreed with this, but as I’ve been progressing through this hellscape known as a Ph.D. my stance has shifted.
+My current wheelhouse is the fruit fly, also known as Drosophila melanogaster. Yes–I study the bug that keeps showing up after you’ve purchased bananas. Ever since all these connectomic papers came out, the most common questions I’ve been asked so far when explaining my and my lab’s research mainly concern the "point" of using a bug. These questions aren’t naive at all to ask–at face value there's no obvious reason to study the fly to this depth for the betterment of society. To map every neuron and synapse and its influence on other neurons and synapses in a bug is giving “waste my time” energy to the majority of the US populus at least. For a while I sorta agreed with this, but as I’ve been progressing through this hellscape known as a Ph.D. my stance has shifted.
 
 You’d be surprised to know that A. we are human, and B. as a society we care a lot about…well…us mostly. As scientists we do a lot to figure out what the hells going on in our bodies and our tax dollars pay for it. We focus on rodent models and other vertebrate species to facilitate the discovery of new genes and new concepts about the brain to understand how we do what we do, and what's happening when things go awry. So how does the fruit fly fit in this? How would a bug help in this discovery and advancement of us?
 
-In short, the fruit fly has like less than ~200k neurons in its entire body, compared to approximately 100 billion neurons MAYBE in humans.
+In short, the fruit fly has like less than ~200k neurons in its entire body, compared to approximately 100 billion neurons MAYBE in humans. The fly's nervous system is very similar to the human nervous system, but it is much smaller and easier to study. This alone is a ‘yuge reason why the fly can help us. Humans and fruit flies also share a significant amount of genetic material, with roughly 60% of human genes having counterparts in the fruit fly, and about 75% of genes associated with human diseases also found in flies. 
 
 Is your mind blown yet? Should be at this point…
-
-The fly's nervous system is very similar to the human nervous system, but it is much smaller and easier to study. This alone is a ‘yuge reason why the fly can help us.
 
 Another reason: motor behavior. Motor behavior is how an animal moves its body. For example, how a fruit fly walks, flies, or eats. By studying the wiring diagram of the fruit fly’s nervous system, its connectome, scientists can learn more about how the human brain controls motor behavior. This is important because it can help us to understand how motor behavior works, because we still don’t completely know..
 
