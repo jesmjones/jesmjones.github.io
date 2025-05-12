@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Click to Redirect to Project
-description: with no page entry here
-redirect: https://scholar.google.com/citations?user=BbFuMYAAAAAJ&hl=en
+title: How to be a Data Viz Wizard
+description: A guide for anyone interested in data visualization as a career.
+redirect: https://jesmjones.github.io/cse512_finalA4_project/
 ---
