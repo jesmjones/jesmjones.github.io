@@ -11,5 +11,9 @@ This is a hot question today in neuroscience, and I seek to answer this by ident
 <img width="1262" alt="Screenshot 2025-02-05 at 10 58 03 AM" src="https://github.com/user-attachments/assets/ffb87642-f30b-478e-b26b-58806ffb9b1b" />
 
 
-I will reconstruct the anatomy and connectivity of nociceptive circuits in the fly’s central nervous system. I will then combine circuit reconstruction, optogenetic manipulations, and automated measurements of fly behavior to investigate how nociceptive signals are integrated in the fly brain to mediate responses to nociception.
+I reconstruct the anatomy and connectivity of nociceptive circuits in the fly’s central nervous system. I then combine circuit reconstruction, optogenetic manipulations, and automated measurements of fly behavior to investigate how nociceptive signals are integrated in the fly brain to mediate responses to nociception.
+
+<img width="893" height="391" alt="image" src="https://github.com/user-attachments/assets/7f29230b-81ba-4af0-b5a4-be7ca60aba75" />
+
+The current preprint can be found [here](https://doi.org/10.1101/2025.10.28.684868) and github in development [here](https://github.com/jesmjones/nociceptive_pathways_paper)
 
