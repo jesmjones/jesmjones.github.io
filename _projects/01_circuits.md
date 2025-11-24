@@ -15,5 +15,6 @@ I reconstruct the anatomy and connectivity of nociceptive circuits in the fly’
 
 <img width="893" height="391" alt="image" src="https://github.com/user-attachments/assets/7f29230b-81ba-4af0-b5a4-be7ca60aba75" />
 
-The current preprint can be found [here](https://doi.org/10.1101/2025.10.28.684868) and github in development [here](https://github.com/jesmjones/nociceptive_pathways_paper)
+The current preprint can be found [here](https://doi.org/10.1101/2025.10.28.684868) and github in development [here](https://github.com/jesmjones/nociceptive_pathways_paper). 
+NEW! Explore the connectome found in Figure 5 [here!](https://jesmjones.github.io/connectome-app/)
 
